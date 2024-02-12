@@ -1,10 +1,8 @@
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-void main(){
+void main() {
   runApp(const MyApp());
-
 }
 
 class MyApp extends StatelessWidget {
@@ -36,52 +34,42 @@ class HomeActivity extends StatefulWidget {
 class _HomeActivityState extends State<HomeActivity> {
   @override
   Widget build(BuildContext context) {
-    return ListView(
-
-      children: [
-
-        ListTile(
-          title: Text("Item 1"),
-          tileColor: Colors.amber,
-          leading: Container(
-            decoration: BoxDecoration(
-                color: Colors.blue, // Set your desired color
-                borderRadius: BorderRadius.circular(5.0)
+    return Container(
+      margin: EdgeInsets.only(top: 10),
+      child: ListView(
+        children: [
+          ListTile(
+            title: Text("Item 1"),
+            tileColor: Colors.amber,
+            leading: Container(
+              decoration: BoxDecoration(
+                  color: Colors.blue, // Set your desired color
+                  borderRadius: BorderRadius.circular(5.0)),
+              child: Icon(Icons.star),
             ),
-            child: Icon(Icons.star),
-
           ),
-        ),
-
-        ListTile(
-          title: Text("Item 1"),
-          tileColor: Colors.amber,
-          leading: Container(
-            decoration: BoxDecoration(
-                color: Colors.blue, // Set your desired color
-                borderRadius: BorderRadius.circular(5.0)
+          ListTile(
+            title: Text("Item 1"),
+            tileColor: Colors.amber,
+            leading: Container(
+              decoration: BoxDecoration(
+                  color: Colors.blue, // Set your desired color
+                  borderRadius: BorderRadius.circular(5.0)),
+              child: Icon(Icons.star),
             ),
-            child: Icon(Icons.star),
-
           ),
-        ),
-
-        ListTile(
-          title: Text("Item 1"),
-          tileColor: Colors.amber,
-          leading: Container(
-            decoration: BoxDecoration(
-                color: Colors.blue, // Set your desired color
-                borderRadius: BorderRadius.circular(5.0)
+          ListTile(
+            title: Text("Item 1"),
+            tileColor: Colors.amber,
+            leading: Container(
+              decoration: BoxDecoration(
+                  color: Colors.blue, // Set your desired color
+                  borderRadius: BorderRadius.circular(5.0)),
+              child: Icon(Icons.star),
             ),
-            child: Icon(Icons.star),
-
-          ),
-        )
-
-      ],
-
+          )
+        ],
+      ),
     );
   }
 }
-
