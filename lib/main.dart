@@ -35,7 +35,7 @@ class _HomeActivityState extends State<HomeActivity> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(top: 10),
+      margin: EdgeInsets.only(top: 3),
       child: ListView(
         children: [
           ListTile(
@@ -50,7 +50,37 @@ class _HomeActivityState extends State<HomeActivity> {
           ),
           ListTile(
             title: Text("Item 1"),
-            tileColor: Colors.amber,
+            tileColor: Colors.green,
+            leading: Container(
+              decoration: BoxDecoration(
+                  color: Colors.blue, // Set your desired color
+                  borderRadius: BorderRadius.circular(5.0)),
+              child: Icon(Icons.star),
+            ),
+          ),
+          ListTile(
+            title: Text("Item 1"),
+            tileColor: Colors.red,
+            leading: Container(
+              decoration: BoxDecoration(
+                  color: Colors.blue, // Set your desired color
+                  borderRadius: BorderRadius.circular(5.0)),
+              child: Icon(Icons.star),
+            ),
+          ),
+          ListTile(
+            title: Text("Item 1"),
+            tileColor: Colors.pink,
+            leading: Container(
+              decoration: BoxDecoration(
+                  color: Colors.blue, // Set your desired color
+                  borderRadius: BorderRadius.circular(5.0)),
+              child: Icon(Icons.star),
+            ),
+          ),
+          ListTile(
+            title: Text("Item 1"),
+            tileColor: Colors.cyan,
             leading: Container(
               decoration: BoxDecoration(
                   color: Colors.blue, // Set your desired color
@@ -67,7 +97,117 @@ class _HomeActivityState extends State<HomeActivity> {
                   borderRadius: BorderRadius.circular(5.0)),
               child: Icon(Icons.star),
             ),
-          )
+          ),
+          ListTile(
+            title: Text("Item 1"),
+            tileColor: Colors.deepOrange,
+            leading: Container(
+              decoration: BoxDecoration(
+                  color: Colors.blue, // Set your desired color
+                  borderRadius: BorderRadius.circular(5.0)),
+              child: Icon(Icons.star),
+            ),
+          ),
+          ListTile(
+            title: Text("Item 1"),
+            tileColor: Colors.deepPurple,
+            leading: Container(
+              decoration: BoxDecoration(
+                  color: Colors.blue, // Set your desired color
+                  borderRadius: BorderRadius.circular(5.0)),
+              child: Icon(Icons.star),
+            ),
+          ),
+          ListTile(
+            title: Text("Item 1"),
+            tileColor: Colors.blueGrey,
+            leading: Container(
+              decoration: BoxDecoration(
+                  color: Colors.blue, // Set your desired color
+                  borderRadius: BorderRadius.circular(5.0)),
+              child: Icon(Icons.star),
+            ),
+          ),
+          ListTile(
+            title: Text("Item 1"),
+            tileColor: Colors.greenAccent,
+            leading: Container(
+              decoration: BoxDecoration(
+                  color: Colors.blue, // Set your desired color
+                  borderRadius: BorderRadius.circular(5.0)),
+              child: Icon(Icons.star),
+            ),
+          ),
+          ListTile(
+            title: Text("Item 1"),
+            tileColor: Colors.indigo,
+            leading: Container(
+              decoration: BoxDecoration(
+                  color: Colors.blue, // Set your desired color
+                  borderRadius: BorderRadius.circular(5.0)),
+              child: Icon(Icons.star),
+            ),
+          ),
+          ListTile(
+            title: Text("Item 1"),
+            tileColor: Colors.amber,
+            leading: Container(
+              decoration: BoxDecoration(
+                  color: Colors.blue, // Set your desired color
+                  borderRadius: BorderRadius.circular(5.0)),
+              child: Icon(Icons.star),
+            ),
+          ),
+          ListTile(
+            title: Text("Item 1"),
+            tileColor: Colors.purpleAccent,
+            leading: Container(
+              decoration: BoxDecoration(
+                  color: Colors.blue, // Set your desired color
+                  borderRadius: BorderRadius.circular(5.0)),
+              child: Icon(Icons.star),
+            ),
+          ),
+          ListTile(
+            title: Text("Item 1"),
+            tileColor: Colors.amber,
+            leading: Container(
+              decoration: BoxDecoration(
+                  color: Colors.blue, // Set your desired color
+                  borderRadius: BorderRadius.circular(5.0)),
+              child: Icon(Icons.star),
+            ),
+          ),
+          ListTile(
+            title: Text("Item 1"),
+            tileColor: Colors.lightBlue,
+            leading: Container(
+              decoration: BoxDecoration(
+                  color: Colors.blue, // Set your desired color
+                  borderRadius: BorderRadius.circular(5.0)),
+              child: Icon(Icons.star),
+            ),
+          ),
+          ListTile(
+            title: Text("Item 1"),
+            tileColor: Colors.green,
+            leading: Container(
+              decoration: BoxDecoration(
+                  color: Colors.blue, // Set your desired color
+                  borderRadius: BorderRadius.circular(5.0)),
+              child: Icon(Icons.star),
+            ),
+          ),
+          ListTile(
+            title: Text("Item 1"),
+            tileColor: Colors.pink,
+            leading: Container(
+              decoration: BoxDecoration(
+                  color: Colors.blue, // Set your desired color
+                  borderRadius: BorderRadius.circular(5.0)),
+              child: Icon(Icons.star),
+            ),
+          ),
         ],
       ),
     );
